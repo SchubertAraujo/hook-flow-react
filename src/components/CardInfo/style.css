@@ -1,0 +1,15 @@
+.profile-infos {
+  margin: 30px 30px;
+  height: 80px;
+  background-color: #5C469C;
+  border-radius: 10px;
+
+}
+
+.name-profile {
+  color: #FFF;
+  margin-left: 150px;
+  margin-top: 0;
+  padding: 10px;
+}
+

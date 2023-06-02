@@ -1,0 +1,9 @@
+.photo-profile {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #0C134F;
+  border-radius: 50%;
+  position: absolute;
+}

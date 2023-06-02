@@ -1,0 +1,16 @@
+.conteiner {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
+
+
+} 
+
+body {
+  background-color: #D4ADFC;
+}
