@@ -1,0 +1,18 @@
+.photo-profile {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #0f1864;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-profile img {
+  width: 90%;
+  border-radius: 50%;
+
+}

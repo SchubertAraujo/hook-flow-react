@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 .conteiner {
   width: 100%;
   max-width: 600px;
@@ -7,8 +13,6 @@
   margin-top: 70px;
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
-
-
 } 
 
 body {

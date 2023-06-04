@@ -1,6 +1,6 @@
 .profile-infos-bottom {
   flex: 1;
-  height: 200px;
-  background-color: #0C134F;
+  padding: 10px;
+  background-color: #0f1864;
   border-radius: 0px 0px 10px 10px;
 }
