@@ -1,17 +1,16 @@
+import { useContext } from 'react';
 import './style.css';
-import Props from 'prop-types';
+import { RepositoryContex } from './../Portifolios';
 
-export function PortifolioCard({ key, name }) {
-  return (
-    <div>
-      {key.id}
-      {name}
-      {console.log(name)}
-    </div>
-  );
-}
-
-PortifolioCard.propTypes = {
-  key: Props.number,
-  name: Props.string,
+export const PortifolioCard = () => {
+  // eslint-disable-next-line no-unused-vars
+  const theContext = useContext(RepositoryContex);
+  const { contextState } = theContext;
+  const {
+    teste: [id],
+  } = contextState;
+  // return contextState.map((m) => {
+  //   <div key={m.id}>{m.id}</div>;
+  // });
+  return console.log(id);
 };
