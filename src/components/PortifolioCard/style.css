@@ -1,9 +1,34 @@
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+.card {
+  display: flex;
+  width: 390px;
+  height: 200px;
+  background-color: blue;
+
+}
+.left-card  {
+  background-color: burlywood;
+  width: 200px;
+  height: 100%;
+  color: aliceblue;
 }
 
-.menu li {
-    color: aliceblue;
+.left-card  img{
+  width: 100%;
+  height: 100%;
+}
+.right-card {
+  background-color: rgb(255, 25, 0);
+  width: 290px;
+  height: 100%;
+  color: aliceblue;
+}
+
+.right-card img {
+  width: 390;
+  height: 200%;
+}
+
+.teste {
+  width: 100%;
+  height: 100%;
 }

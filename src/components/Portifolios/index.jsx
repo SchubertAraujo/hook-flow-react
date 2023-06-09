@@ -1,9 +1,6 @@
-import { createContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './style.css';
-import { repositoryContext } from './data';
-import Prop from 'prop-types';
-
-export const RepositoryContex = createContext();
+import { PortifolioCard } from '../PortifolioCard';
 
 const loadRepository = async () => {
   const repository = await fetch(
@@ -13,23 +10,20 @@ const loadRepository = async () => {
   return repositoryJson;
 };
 
-export const PortifoliosProvider = ({ children }) => {
-  const [contextState, setContextState] = useState(repositoryContext);
+export const Portifolios = () => {
+  const [repositoryState, setrepositoryState] = useState([]);
+
   useEffect(() => {
     const fecthRepository = async () => {
       const repos = await loadRepository();
-      setContextState(repos);
+      setrepositoryState(repos);
     };
     fecthRepository();
   }, []);
 
   return (
-    <RepositoryContex.Provider value={{ contextState }}>
-      {children}
-    </RepositoryContex.Provider>
+    <div className="container">
+      <PortifolioCard repos={repositoryState} />
+    </div>
   );
-};
-
-PortifoliosProvider.propTypes = {
-  children: Prop.node,
 };

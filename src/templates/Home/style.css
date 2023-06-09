@@ -6,15 +6,25 @@
 
 .conteiner {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   margin-top: 70px;
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
-} 
+}
+
+
+.conteiner2 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
 
 body {
   background-color: #D4ADFC;
 }
+

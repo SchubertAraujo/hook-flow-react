@@ -1,9 +1,13 @@
 .menu {
     list-style: none;
     display: flex;
-    gap: 15px;
+
 }
 
-.menu li {
-    color: aliceblue;
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: rgb(174, 14, 206); */
 }
