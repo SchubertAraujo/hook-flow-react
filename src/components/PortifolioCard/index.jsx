@@ -1,17 +1,42 @@
 import './style.css';
 import PropT from 'prop-types';
+import { LanguageAndImgs } from '../LanguagesAndImgs';
 
 export const PortifolioCard = ({ repos }) => {
+  const handleLanguagesOrTechs = (topics, languages) => {
+    let languagesOrTechs;
+    languagesOrTechs =
+      topics.indexOf(languages.toLowerCase()) !== -1 ? languages : '';
+    return languagesOrTechs;
+  };
+
   return (
     <>
       {repos.map((repository) => (
         <div key={repository.id} className="card">
           <div className="left-card">
-            <>FOTO</>
+            <img
+              src={`https://raw.githubusercontent.com/${repository.full_name}/main/preview.png`}
+            />
           </div>
           <div className="right-card">
             <h2>{repository.description}</h2>
-            <p>Techs:</p>
+            <p>Techs: </p>
+            <LanguageAndImgs
+              languages={handleLanguagesOrTechs(
+                repository.topics,
+                'javascript',
+              )}
+            />
+            <LanguageAndImgs
+              languages={handleLanguagesOrTechs(repository.topics, 'html5')}
+            />
+            <LanguageAndImgs
+              languages={handleLanguagesOrTechs(repository.topics, 'css3')}
+            />
+            <LanguageAndImgs
+              languages={handleLanguagesOrTechs(repository.topics, 'react')}
+            />
           </div>
         </div>
       ))}
@@ -20,5 +45,5 @@ export const PortifolioCard = ({ repos }) => {
 };
 
 PortifolioCard.propTypes = {
-  repos: PropT.node,
+  repos: PropT.array,
 };
