@@ -5,17 +5,17 @@ import { ProfileInfoBot } from '../../components/profileCard/ProfileCardBottom';
 import { ProfileInfoTop } from '../../components/profileCard/ProfileCardTop';
 import './style.css';
 
-export const Home = () => {
+export function Home() {
   return (
     <div>
-      <div className="conteiner">
+      <div className="conteiner profile-card">
         <PhotoProfile />
         <ProfileInfoTop />
         <ProfileInfoBot />
       </div>
-      <div className="conteiner2">
+      <div className="conteiner">
         <Portifolios />
       </div>
     </div>
   );
-};
+}

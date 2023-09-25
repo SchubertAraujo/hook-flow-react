@@ -1,0 +1,9 @@
+.teste {
+  background-color: seagreen;
+  gap: 30px;
+}
+
+.languages-imgs {
+  justify-content: center;
+  padding: 50px;
+}

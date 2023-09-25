@@ -1,0 +1,21 @@
+:root {
+  --color-card-background-one: #1D267D;
+  --color-card-background-two: #0f1864;
+  --color-card-background-tree: #5C469C;
+  --background-color-page: #D4ADFC;
+  --backgroung-hover: #9d52e7;
+  --font-color: aliceblue;
+}
+
+button {
+  color: var(--font-color);
+  background-color: var(--color-card-background-tree);
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+button:hover{
+  background-color: var(--backgroung-hover);
+}

@@ -4,19 +4,13 @@
   box-sizing: border-box;
 }
 
-.conteiner {
-  width: 100%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  margin-top: 70px;
+.profile-card {
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
 }
 
 
-.conteiner2 {
+.conteiner {
   width: 100%;
   max-width: 800px;
   margin-left: auto;

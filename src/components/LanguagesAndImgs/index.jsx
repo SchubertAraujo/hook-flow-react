@@ -2,12 +2,13 @@
 import css from '../../imgs/css-3.png';
 import js from '../../imgs/js.png';
 import html from '../../imgs/html5.png';
+import profile from '../../imgs/man.png';
 import propT from 'prop-types';
 
-export const LanguageAndImgs = ({ languages }) => {
+export const LanguageAndImgs = ({ languagesImgs }) => {
   return (
     <div className="languages-imgs">
-      {languages == 'javascript' ? (
+      {languagesImgs == 'javascript' ? (
         <>
           <img src={js} />
           <>javascript</>
@@ -15,7 +16,7 @@ export const LanguageAndImgs = ({ languages }) => {
       ) : (
         ''
       )}
-      {languages == 'html5' ? (
+      {languagesImgs == 'html5' ? (
         <>
           <img src={html} />
           <>html</>
@@ -23,7 +24,7 @@ export const LanguageAndImgs = ({ languages }) => {
       ) : (
         ''
       )}
-      {languages == 'css3' ? (
+      {languagesImgs == 'css3' ? (
         <>
           <img src={css} />
           <>css</>
@@ -31,11 +32,19 @@ export const LanguageAndImgs = ({ languages }) => {
       ) : (
         ''
       )}
-      {languages == 'react' ? (
+      {languagesImgs == 'react' ? (
         <>
           <img src={js} />
           <>react</>
         </>
+      ) : (
+        ''
+      )}
+      {languagesImgs == 'profile' ? (
+        <div className="teste">
+          <img src={profile} />
+          <p>perfil</p>
+        </div>
       ) : (
         ''
       )}
@@ -44,5 +53,5 @@ export const LanguageAndImgs = ({ languages }) => {
 };
 
 LanguageAndImgs.propTypes = {
-  languages: propT.string,
+  languagesImgs: propT.string,
 };

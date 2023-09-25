@@ -3,7 +3,7 @@
   margin-left: 30px;
   width: 100px;
   height: 100px;
-  background-color: #0f1864;
+  background-color: var(--color-card-background-two);
   border-radius: 50%;
   position: absolute;
   display: flex;

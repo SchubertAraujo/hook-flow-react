@@ -20,7 +20,7 @@ export const PortifolioCard = ({ repos }) => {
             />
           </div>
           <div className="right-card">
-            <h2>{repository.description}</h2>
+            <p>{repository.description}</p>
             <p>Techs: </p>
             <LanguageAndImgs
               languages={handleLanguagesOrTechs(
@@ -29,13 +29,13 @@ export const PortifolioCard = ({ repos }) => {
               )}
             />
             <LanguageAndImgs
-              languages={handleLanguagesOrTechs(repository.topics, 'html5')}
+              languagesImgs={handleLanguagesOrTechs(repository.topics, 'html5')}
             />
             <LanguageAndImgs
-              languages={handleLanguagesOrTechs(repository.topics, 'css3')}
+              languagesImgs={handleLanguagesOrTechs(repository.topics, 'css3')}
             />
             <LanguageAndImgs
-              languages={handleLanguagesOrTechs(repository.topics, 'react')}
+              languagesImgs={handleLanguagesOrTechs(repository.topics, 'react')}
             />
           </div>
         </div>

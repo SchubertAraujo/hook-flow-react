@@ -1,14 +1,16 @@
-.profile-infos { 
+@import url('../../GlobalVars/style.css');
+
+.profile-infos {
   height: 200px;
-  background-color: #5C469C;
+  background-color: var(--color-card-background-tree);
   border-radius: 10px;
 
 }
 
 .name-profile {
-  color: #FFF;
-  margin-left: 150px;
-  margin-top: 0;
-  padding: 10px;
+  color: var(--font-color);
+  margin-left: 120px;
+  margin-top: 0px;
+  padding: 5px;
 }
 
