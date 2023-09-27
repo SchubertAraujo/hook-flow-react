@@ -1,9 +1,10 @@
 @import url('../../GlobalVars/style.css');
 
 .profile-infos {
-  height: 200px;
+  padding: 10px 15px;
   background-color: var(--color-card-background-tree);
   border-radius: 10px;
+  border: 1px solid black;
 
 }
 

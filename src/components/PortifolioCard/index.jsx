@@ -1,6 +1,6 @@
+import { IconsAndDescriptions } from '../IconsAndDescriptions';
 import './style.css';
 import PropT from 'prop-types';
-import { LanguageAndImgs } from '../LanguagesAndImgs';
 
 export const PortifolioCard = ({ repos }) => {
   const handleLanguagesOrTechs = (topics, languages) => {
@@ -22,20 +22,17 @@ export const PortifolioCard = ({ repos }) => {
           <div className="right-card">
             <p>{repository.description}</p>
             <p>Techs: </p>
-            <LanguageAndImgs
-              languages={handleLanguagesOrTechs(
-                repository.topics,
-                'javascript',
-              )}
+            <IconsAndDescriptions
+              name={handleLanguagesOrTechs(repository.topics, 'javascript')}
             />
-            <LanguageAndImgs
-              languagesImgs={handleLanguagesOrTechs(repository.topics, 'html5')}
+            <IconsAndDescriptions
+              name={handleLanguagesOrTechs(repository.topics, 'html5')}
             />
-            <LanguageAndImgs
-              languagesImgs={handleLanguagesOrTechs(repository.topics, 'css3')}
+            <IconsAndDescriptions
+              name={handleLanguagesOrTechs(repository.topics, 'css3')}
             />
-            <LanguageAndImgs
-              languagesImgs={handleLanguagesOrTechs(repository.topics, 'react')}
+            <IconsAndDescriptions
+              name={handleLanguagesOrTechs(repository.topics, 'react')}
             />
           </div>
         </div>

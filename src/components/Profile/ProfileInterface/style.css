@@ -1,0 +1,19 @@
+.snippet-title {
+  background-color: var(--color-card-background-two);
+}
+
+.reseverd-word-color {
+  color: var(--color-card-background-one);
+}
+
+.property-color {
+  color: rgb(243, 51, 195);
+}
+
+.property-value-color {
+  color: rgb(0, 0, 255);
+}
+
+.assignement-color {
+  color: rgb(255, 0, 0);
+}

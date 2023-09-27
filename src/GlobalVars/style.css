@@ -7,13 +7,17 @@
   --font-color: aliceblue;
 }
 
+h3 {
+  color: var(--font-color);
+}
+
 button {
   color: var(--font-color);
   background-color: var(--color-card-background-tree);
   border-radius: 5px;
   padding: 5px 10px;
   border: 1px solid black;
-  justify-content: center;
+  display: flex;
 }
 
 button:hover{

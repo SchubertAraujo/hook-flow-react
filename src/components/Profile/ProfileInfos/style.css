@@ -1,0 +1,11 @@
+.snippet-style {
+  padding: 10px 0px;
+  background-color: #ffffffc2;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.title-style {
+  padding: 10px 0px;
+}

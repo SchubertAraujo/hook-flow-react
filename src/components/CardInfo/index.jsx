@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Menu } from '../Menu';
 import './style.css';
-import { Profile } from '../Profile';
+import { Profile } from '../Profile/ProfileInfos';
 import { Skills } from '../Skills';
 export const CardInfo = () => {
   return (
