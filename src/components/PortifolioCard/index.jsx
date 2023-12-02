@@ -1,15 +1,15 @@
-import { IconsAndDescriptions } from '../IconsAndDescriptions';
+import {
+  Css,
+  Html,
+  Javascript,
+  Json,
+  React,
+  WebStore,
+} from '../IconsAndDescriptions/badgeTechs';
 import './style.css';
 import PropT from 'prop-types';
 
 export const PortifolioCard = ({ repos }) => {
-  const handleLanguagesOrTechs = (topics, languages) => {
-    let languagesOrTechs;
-    languagesOrTechs =
-      topics.indexOf(languages.toLowerCase()) !== -1 ? languages : '';
-    return languagesOrTechs;
-  };
-
   return (
     <>
       {repos.map((repository) => (
@@ -22,18 +22,14 @@ export const PortifolioCard = ({ repos }) => {
           <div className="right-card">
             <p>{repository.description}</p>
             <p>Techs: </p>
-            <IconsAndDescriptions
-              name={handleLanguagesOrTechs(repository.topics, 'javascript')}
-            />
-            <IconsAndDescriptions
-              name={handleLanguagesOrTechs(repository.topics, 'html5')}
-            />
-            <IconsAndDescriptions
-              name={handleLanguagesOrTechs(repository.topics, 'css3')}
-            />
-            <IconsAndDescriptions
-              name={handleLanguagesOrTechs(repository.topics, 'react')}
-            />
+            <div className="techs-boxes">
+              {repository.topics.indexOf('javascript') !== -1 && <Javascript />}
+              {repository.topics.indexOf('html5') !== -1 && <Html />}
+              {repository.topics.indexOf('css3') !== -1 && <Css />}
+              {repository.topics.indexOf('react') !== -1 && <React />}
+              {repository.topics.indexOf('json') !== -1 && <Json />}
+              {repository.topics.indexOf('webstorage') !== -1 && <WebStore />}
+            </div>
           </div>
         </div>
       ))}

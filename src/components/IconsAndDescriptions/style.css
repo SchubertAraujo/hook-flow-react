@@ -11,3 +11,63 @@
 .menu-imgs div:hover {
   background-color: var(--backgroung-hover);
 }
+
+.icon-position  {
+  border-radius: 5px 0px 0px 5px;
+  padding: 2px 5px;
+  background-color: #3b3939f6;
+  height: 100%;
+}
+
+.languages-techs {
+  display: flex; 
+  align-items: center;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.languages-techs div {
+  font-size: 13px;
+  color: white ;
+  border-radius: 0px 5px 5px 0px;
+  border-left: 0px;
+  height: 100%;
+  padding: 0px 5px;
+}
+
+.js {
+  background-color: #d7af23;
+}
+
+.css{
+  background-color: #0F81C2;
+}
+
+.html{
+  background-color: #f48041;
+}
+
+.delphi {
+  background-color: #c74343;
+}
+
+.json {
+  background-color: #cb1f4a;
+}
+
+.webStorage {
+  background-color: #9F33A5;
+}
+
+.react {
+  background-color: #61dcf7;
+}
+
+.sqlServer {
+  background-color: #1d83d4;
+}
+
+
+
+
+

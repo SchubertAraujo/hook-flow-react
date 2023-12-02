@@ -29,7 +29,7 @@ export const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link to={'/objective'}>
+          <Link to={'/Objectives'}>
             <IconsAndDescriptions
               iconImg={objectives}
               description={'Objetivos'}
@@ -38,7 +38,7 @@ export const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link to={'/xp'}>
+          <Link to={'/Xp'}>
             <IconsAndDescriptions
               iconImg={experience}
               description={'Experiência'}

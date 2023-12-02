@@ -1,0 +1,26 @@
+.skill-boxes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skill-box-style {
+    background-color:#292424;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.techs-boxes {
+    padding: 10px 5px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title-border {
+   text-align: center;
+   border-radius: 5px 5px 0px 0px;
+   padding: 2px 0px;
+   background-color: #292424;
+}

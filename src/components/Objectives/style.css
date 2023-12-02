@@ -1,0 +1,6 @@
+.p-style {
+    color: var(--font-color);
+    background-color:#292424;
+    border-radius: 5px;
+    padding: 10px;
+}

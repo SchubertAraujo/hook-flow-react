@@ -2,32 +2,31 @@
   display: flex;
   width: 390px;
   height: 200px;
-
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
 }
-.left-card  {
-  background-color: burlywood;
+.left-card  { 
   width: 200px;
   height: 100%;
   color: aliceblue;
+  border-radius: 10px 0px 0px 10px;
+  
 }
 
 .left-card  img{
   width: 100%;
   height: 100%;
+  border-radius: 10px 0px 0px 10px;
 }
+
 .right-card {
-  background-color: rgb(59, 59, 59);
+  background-color: #292424;
   width: 290px;
   height: 100%;
   color: aliceblue;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .right-card img {
-  width: 390;
-  height: 200%;
-}
-
-.teste {
-  width: 100%;
-  height: 100%;
+  width: 390; 
 }

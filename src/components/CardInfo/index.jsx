@@ -3,6 +3,9 @@ import { Menu } from '../Menu';
 import './style.css';
 import { Profile } from '../Profile/ProfileInfos';
 import { Skills } from '../Skills';
+//import { Xp } from '../Experience';
+import { Objectives } from '../Objectives';
+import { Experience } from '../Xp';
 export const CardInfo = () => {
   return (
     <>
@@ -13,6 +16,8 @@ export const CardInfo = () => {
           <Routes>
             <Route path="/" element={<Profile />} />
             <Route path="/Skills" element={<Skills />} />
+            <Route path="/Objectives" element={<Objectives />} />
+            <Route path="/Xp" element={<Experience />} />
           </Routes>
         </div>
       </BrowserRouter>
