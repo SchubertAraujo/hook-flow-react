@@ -25,6 +25,14 @@ button {
   display: flex;
 }
 
-button:hover{
+button:not([disabled]):hover {
   background-color: var(--backgroung-hover);
 }
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/* button:hover{
+  background-color: var(--backgroung-hover);
+} */

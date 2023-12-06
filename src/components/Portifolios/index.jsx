@@ -27,7 +27,6 @@ export const Portifolios = () => {
     fecthRepository();
   }, []);
 
-  const noMorePortifolos = page + portifolioPerPage >= allRepository.length;
   useEffect(() => {
     handleLoadPortifolios(0, portifolioPerPage);
   }, [handleLoadPortifolios, portifolioPerPage]);
@@ -53,13 +52,20 @@ export const Portifolios = () => {
     repository.push(...nextPost);
     setPage(nextPage);
   };
+
+  const noMorePortifolios = repository.length >= allRepository.length;
+  console.log(noMorePortifolios);
   return (
     <>
       <div className="container">
         <PortifolioCard repos={repository} />
       </div>
       <div>
-        <button onClick={loadMorePortifolios} disabled={noMorePortifolos}>
+        <button
+          onClick={loadMorePortifolios}
+          disabled={noMorePortifolios}
+          className="button-style"
+        >
           Carregar mais portifólios
         </button>
       </div>

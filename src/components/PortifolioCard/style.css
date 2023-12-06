@@ -4,13 +4,17 @@
   height: 200px;
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+  transform: translate(2%, 2%) scale(1.04);
 }
 .left-card  { 
   width: 200px;
   height: 100%;
   color: aliceblue;
   border-radius: 10px 0px 0px 10px;
-  
+  border: 1px solid black;
 }
 
 .left-card  img{
@@ -20,13 +24,17 @@
 }
 
 .right-card {
-  background-color: #292424;
+  background-color: var(--color-card-background-two);
   width: 290px;
   height: 100%;
   color: aliceblue;
   border-radius: 0px 10px 10px 0px;
+  border: 1px solid black;
 }
 
 .right-card img {
   width: 390; 
+}
+.right-card p {
+  padding-left: 5px; 
 }
