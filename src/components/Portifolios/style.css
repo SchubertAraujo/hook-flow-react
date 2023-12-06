@@ -19,6 +19,3 @@
   justify-content: center;
   
 }
-.button-style:not([disabled]):hover {
-  background-color: var(--backgroung-hover);
-}

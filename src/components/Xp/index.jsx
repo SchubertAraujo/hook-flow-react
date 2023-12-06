@@ -11,7 +11,7 @@ export const Experience = () => {
           <p className="p-companies">Ano: 2010/2011</p>
           <p className="p-companies">Vaga: Programador Estágiario</p>
           <p className="p-companies">Techs: </p>
-          <div className="techs-boxes">
+          <div className="xp-tech-boxes">
             <Delphi />
             <SqlServer />
           </div>
@@ -21,7 +21,7 @@ export const Experience = () => {
           <p className="p-companies">Ano: 2011/2012</p>
           <p className="p-companies">Vaga: Programador Júnior</p>
           <p className="p-companies">Techs: </p>
-          <div className="techs-boxes">
+          <div className="xp-tech-boxes">
             <Delphi />
             <SqlServer />
           </div>
@@ -31,7 +31,7 @@ export const Experience = () => {
           <p className="p-companies">Ano: 2013/2014</p>
           <p className="p-companies">Vaga: Programador Delphi</p>
           <p className="p-companies">Techs: </p>
-          <div className="techs-boxes">
+          <div className="xp-tech-boxes">
             <Delphi />
             <SqlServer />
           </div>
