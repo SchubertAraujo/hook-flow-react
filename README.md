@@ -4,3 +4,5 @@
 
 ## FUNCIONAMENTO DO PROJETO
 - O projeto está postado, até o momento, no <a href='https://fabulous-rugelach-2636ef.netlify.app'><b>Netlify</b></a>
+- Caso queira rodar em seu computador é necessário
+  - Instalar o node.js no <a href='https://nodejs.org/en> https://nodejs.org/en </>
