@@ -17,3 +17,12 @@
 .assignement-color {
   color: rgb(255, 0, 0);
 }
+
+.teste {
+  display: flex;
+
+}
+
+.teste2 {
+  word-wrap: break-word;
+}

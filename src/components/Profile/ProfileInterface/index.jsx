@@ -18,12 +18,14 @@ export const ProfileInterface = ({ objectDeclaration, propertyInfos }) => {
         <>
           {propertyInfos.map((property) => (
             <pre key={property.key}>
-              <span className="property-color">
-                {'     ' + property.key + ': '}
-              </span>
-              <span className="property-value-color">
-                {'"' + property.value + '"'}
-              </span>
+              <p className="teste">
+                <p className="property-color">
+                  {'     ' + property.key + ': '}
+                </p>
+                <p className="property-value-color">
+                  {'"' + property.value + '"'}
+                </p>
+              </p>
             </pre>
           ))}
           <pre>
