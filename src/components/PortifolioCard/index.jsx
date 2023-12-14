@@ -27,7 +27,7 @@ export const PortifolioCard = ({ repos }) => {
               />
             </div>
             <div className="right-card">
-              <p>{repository.name.replace(/-/g, ' ')}</p>
+              <h5>{repository.name.replace(/-/g, ' ')}</h5>
               <p>{repository.description}</p>
               <p>Techs: </p>
               <div className="techs-boxes">

@@ -1,13 +1,14 @@
 .companies-boxes {
-    display: flex;
-    justify-content: space-between;
-    
+    display: grid;
+    max-width: 800px;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    justify-content: space-between;   
 }
 
 .companies-box-style {
     background-color:#292424;
     border-radius: 5px;
-    width: 200px;
     color: var(--font-color);
     padding: 5px;
     font-size: 14px;

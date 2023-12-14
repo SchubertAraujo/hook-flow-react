@@ -18,11 +18,14 @@
   color: rgb(255, 0, 0);
 }
 
-.teste {
+.infos-style {
   display: flex;
-
+  word-wrap: break-word;
 }
 
-.teste2 {
-  word-wrap: break-word;
+@media (max-width: 360px) {
+  .infos-style {
+    display: block;
+  }
+  
 }

@@ -1,5 +1,4 @@
 .menu {
-    list-style: none;
     display: flex;
     padding: 15px 5px;
     gap: 15px;
@@ -8,7 +7,6 @@
 .link-style {
   white-space: nowrap;
 }
-
 
 a:link,
 a:visited,
@@ -21,4 +19,27 @@ a:hover {
 
 a {
   font-size: 14px;
+}
+
+.menu-and-submenu {
+  padding: 15px 5px;
+  width: 100%;
+  color: var(--font-color);
+  font-size: 14px;
+  display: block;
+}
+.menu-and-submenu:hover {
+  cursor: pointer;
+}
+
+.sub-menu {
+  flex-direction: column;
+  position: absolute;
+  width: 90%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

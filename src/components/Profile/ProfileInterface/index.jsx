@@ -17,16 +17,16 @@ export const ProfileInterface = ({ objectDeclaration, propertyInfos }) => {
       ) : (
         <>
           {propertyInfos.map((property) => (
-            <pre key={property.key}>
-              <p className="teste">
+            <div key={property.key} className="infos-style">
+              <pre>
                 <p className="property-color">
                   {'     ' + property.key + ': '}
                 </p>
-                <p className="property-value-color">
-                  {'"' + property.value + '"'}
-                </p>
+              </pre>
+              <p className="property-value-color">
+                {'"' + property.value + '"'}
               </p>
-            </pre>
+            </div>
           ))}
           <pre>
             <p>{'   }'}</p>

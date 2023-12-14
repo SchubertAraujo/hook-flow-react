@@ -5,6 +5,7 @@ import { ProfileInfoBot } from '../../components/profileCard/CardProfileBottom';
 import { ProfileInfoTop } from '../../components/profileCard/CardProfileTop';
 import './style.css';
 import { useEffect } from 'react';
+import { PortifoliosTitle } from '../../components/PortifolioTitle';
 
 export function Home() {
   useEffect(() => {
@@ -21,6 +22,9 @@ export function Home() {
         <PhotoProfile />
         <ProfileInfoTop />
         <ProfileInfoBot />
+      </div>
+      <div className="conteiner">
+        <PortifoliosTitle />
       </div>
       <div className="conteiner">
         <Portifolios />

@@ -16,6 +16,11 @@ h3 {
   padding-bottom: 15px;
 }
 
+h5 {
+  font-size: 13px;
+}
+
+
 button {
   color: var(--font-color);
   background-color: var(--color-card-background-tree);
