@@ -4,7 +4,7 @@ import './style.css';
 export const Experience = () => {
   return (
     <>
-      <h3>Conhecimento</h3>
+      <h3>Experiência</h3>
       <div className="companies-boxes">
         <div className="companies-box-style">
           <h4 className="title-border">NetView Informatica</h4>
