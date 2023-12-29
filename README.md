@@ -7,7 +7,6 @@
 <img src="https://raw.githubusercontent.com/SchubertAraujo/my-professional-profile/main/preview.png" alt="Imagem do projeto" />
 
 ## FUNCIONAMENTO DO PROJETO
-- O projeto está postado, até o momento, no <a href='https://myprofessionalprofilesa.netlify.app/'><b>Netlify</b></a>
 - Caso queira rodar em seu computador é necessário
   - Instalar o node.js (marcar para instalar o chocolatey)no <a href='https://nodejs.org/en'> https://nodejs.org/en </a>
   - Apagar as pastas package-lock.json e node modules.
