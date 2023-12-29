@@ -3,8 +3,7 @@
     max-width: 800px;
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .skill-box-style {
@@ -26,10 +25,3 @@
    padding: 2px 0px;
    background-color: #292424;
 }
-/* 
-@media (max-width : 661px) {
-    .skill-boxes {
-        display: block;
-        gap: 15px;
-    }
-} */
