@@ -19,6 +19,8 @@
 
 ## OBSERVAÇÕES
 - O projeto usa o Fetch API para buscar meus projeto no github
+- Mostra o portifólio de 2 em 2, carrega sempre mais 2
+- Mostra experiência e as "badges" das tecnologias inspiradas nas "badge" aqui do gitHub
 - Para mostrar apenas os projetos que eu quero, eu uso a palavra chave shows em "topics" no script
 
 ## DIFICULDADES ENCONTRADAS
