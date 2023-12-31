@@ -22,6 +22,7 @@
 - Mostra o portifólio de 2 em 2, carrega sempre mais 2
 - Mostra experiência e as "badges" das tecnologias inspiradas nas "badge" aqui do gitHub
 - Para mostrar apenas os projetos que eu quero, eu uso a palavra chave shows em "topics" no script
+- As "badges" monstradas são carregadas de acordo com o "about" do projeto
 
 ## DIFICULDADES ENCONTRADAS
 -  No inicio queria mostrar apenas projetos com javascript, porém ele mostrava todos os publicos.
